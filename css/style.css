@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color: burlywood;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.img-logo {
+    display: flex;
+}
+
+.border {
+    border: 1px dotted red;
+}
+
+.box1 {
+    flex: 1;
+}
+
+.box2 {
+    flex: 1;
+}
+
+.box3 {
+    flex: 1;
+}
+
+@media (min-width: 500px) {
+    .img-logo {
+        flex-direction: column;
+    }
+    img {
+        width: 700px;
+        height: 700px;
+    }
+}
