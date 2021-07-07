@@ -55,7 +55,7 @@ p {
   display: inline-block;
   margin-left: 18px;
 }
-h1 {
+h2 {
   font-size: 32px;
   font-weight: 300;
   color: #4c4c4c;
@@ -63,15 +63,33 @@ h1 {
   padding-top: 10px;
   margin-bottom: 10px;
 }
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+img{
+  width: 40%;
+  position: relative;
+  margin-top: -20%;
+  margin-left: 30% ;
+}
 
 html {
   background-color: #ffffff;
 }
+.employ-button-area{
+  display: flex;
+  justify-content: center;
+}
 
 .testbox {
-  margin: 20px auto;
+  margin: 150px auto;
   width: 343px;
-  height: 500px;
+  min-height: 265px;
   -webkit-border-radius: 8px/7px;
   -moz-border-radius: 8px/7px;
   border-radius: 8px/7px;
@@ -82,8 +100,13 @@ html {
   border: solid 1px #cbc9c9;
 }
 
+.login-area{
+  margin-top: 20px;
+}
+
 input[type="radio"] {
   visibility: hidden;
+  margin-top: 25px;
 }
 
 form {
@@ -141,7 +164,7 @@ hr {
 
 input[type="text"],
 input[type="password"] {
-  width: 200px;
+  width: 180px;
   height: 39px;
   -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
   -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
@@ -154,10 +177,6 @@ input[type="password"] {
   margin-left: -5px;
   margin-top: 13px;
   padding-left: 10px;
-}
-
-input[type="password"] {
-  margin-bottom: 25px;
 }
 
 #icon {
@@ -191,9 +210,8 @@ a.button {
   font-weight: 600;
   color: white;
   padding: 6px 25px 0px 20px;
-  margin: 10px 8px 20px 0px;
+  margin: 10px 8px 20px 26px;
   display: inline-block;
-  float: right;
   text-decoration: none;
   width: 50px;
   height: 27px;
@@ -208,8 +226,50 @@ a.button {
   top: 0px;
   position: relative;
 }
+a.button-register{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 8px 20px 0px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 50px; height: 27px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #3a57af; 
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+  box-shadow: 0 3px rgba(58,87,175,.75);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+a.button-employ{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 8px 20px 0px;
+  display: inline-block;
+  text-decoration: none;
+  width: 80px; height: 27px;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #3a57af; 
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+  box-shadow: 0 3px rgba(58,87,175,.75);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
 
-a.button:hover {
+}
+
+
+.button:hover, .button-register:hover, .button-employ:hover{
   top: 3px;
   background-color: #2e458b;
   -webkit-box-shadow: none;
