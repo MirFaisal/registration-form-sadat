@@ -71,17 +71,17 @@ h3 {
   padding-top: 10px;
   margin-bottom: 10px;
 }
-img{
+img {
   width: 40%;
   position: relative;
   margin-top: -20%;
-  margin-left: 30% ;
+  margin-left: 30%;
 }
 
 html {
   background-color: #ffffff;
 }
-.employ-button-area{
+.employ-button-area {
   display: flex;
   justify-content: center;
 }
@@ -100,7 +100,7 @@ html {
   border: solid 1px #cbc9c9;
 }
 
-.login-area{
+.login-area {
   margin-top: 20px;
 }
 
@@ -226,7 +226,7 @@ a.button {
   top: 0px;
   position: relative;
 }
-a.button-register{
+a.button-register {
   font-size: 14px;
   font-weight: 600;
   color: white;
@@ -235,19 +235,20 @@ a.button-register{
   display: inline-block;
   float: right;
   text-decoration: none;
-  width: 50px; height: 27px; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-  border-radius: 5px; 
-  background-color: #3a57af; 
-  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
-  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
-  box-shadow: 0 3px rgba(58,87,175,.75);
-  transition: all 0.1s linear 0s; 
+  width: 50px;
+  height: 27px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #3a57af;
+  -webkit-box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  -moz-box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  transition: all 0.1s linear 0s;
   top: 0px;
   position: relative;
 }
-a.button-employ{
+a.button-employ {
   font-size: 14px;
   font-weight: 600;
   color: white;
@@ -255,24 +256,29 @@ a.button-employ{
   margin: 10px 8px 20px 0px;
   display: inline-block;
   text-decoration: none;
-  width: 80px; height: 27px;
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-  border-radius: 5px; 
-  background-color: #3a57af; 
-  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
-  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
-  box-shadow: 0 3px rgba(58,87,175,.75);
-  transition: all 0.1s linear 0s; 
+  width: 80px;
+  height: 27px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #3a57af;
+  -webkit-box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  -moz-box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  box-shadow: 0 3px rgba(58, 87, 175, 0.75);
+  transition: all 0.1s linear 0s;
   top: 0px;
-
 }
 
-
-.button:hover, .button-register:hover, .button-employ:hover{
+.button:hover,
+.button-register:hover,
+.button-employ:hover {
   top: 3px;
   background-color: #2e458b;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+.terms-and-Privacy {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
