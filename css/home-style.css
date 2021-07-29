@@ -128,14 +128,20 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
 }
 .box h2{
-    font-family: 'Inconsolata', monospace;
-    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     margin: 5px 0 5px 5px;
 }
 .box p{
     font-family: 'Inconsolata', monospace;
     font-size: small;
     margin: 5px 0 5px 5px;
+    color: rgb(145, 144, 144);
+
+}
+.box:hover{
+    box-shadow: 0 4px 8px 0 #3c5dbeb9, 0 6px 20px 0 #3c5dbeb9;
+    
 
 }
 section h1{
@@ -150,6 +156,23 @@ section h1{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
+    margin-bottom: 35px;
+
+}
+.Restaurants-list a{
+    text-decoration: none;
+    color: black;
+}
+.amount{
+    color: blue;
+}
+.restaurants-list-footer p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    color: rgb(121, 121, 121);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
 
 }
