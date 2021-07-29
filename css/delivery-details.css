@@ -82,9 +82,19 @@ button {
   margin-bottom: 50px;
   margin-top: 50px;
 }
+.confirm{
+  margin-left: 0;
+}
 button:hover {
   opacity: 0.9;
   cursor: pointer;
+}
+fieldset div{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+
 }
 
 .delivery-time {
@@ -130,3 +140,13 @@ button:hover {
   margin: auto;
   height: 400px;
 }
+.payment-select {
+  margin: auto;
+  width: 60%;
+}
+/* .payment-select i {
+  margin: 0 20px 0 90%;
+}
+.payment-select .card {
+  margin: 0 20px 0 76.2%;
+} */
