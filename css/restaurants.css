@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+i {
+  margin-top: 5px;
+  color: #3c5cbe;
+}
+i:hover {
+  color: #334d9b;
+}
+select {
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+button {
+  background: #3c5cbe;
+  border-style: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+}
+.amount {
+  color: blue;
+}
+.delivery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.home-nav {
+  margin: 0;
+  padding-right: 40px;
+  box-shadow: #3c5dbeb9 0px 0px 20px;
+}
+.home-nav li p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  color: #3c5cbe;
+}
+.home-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.home-nav ul li {
+  padding: 0;
+  margin: 0;
+}
+.address-time {
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.address-time p {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  padding-left: 30px;
+}
+
+.poster h2 {
+  margin-top: 40px;
+  max-lines: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 80px;
+  font-family: "Inconsolata", monospace;
+  color: rgba(255, 255, 255, 0.644);
+  text-shadow: 1px 1px 70px #3c5cbe;
+}
+.poster {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-dbh {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-bbr {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-hs {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-nhr {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-ocf {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-br {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-ac {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg7.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-ak {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster-mmhk {
+  margin-top: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background: url("../images/restaurants-list/res-bg9.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.rest-name h2 {
+  font-size: 70px;
+  margin: 5px 0 5px 5px;
+  font-family: "Inconsolata", monospace;
+}
+.rest-name p {
+  font-family: "Inconsolata", monospace;
+  margin: 1px 0 30px 20px;
+  font-size: 15px;
+}
+.item h2 {
+  font-size: 35px;
+  margin: 25px 0 2px 15px;
+
+  font-family: "Inconsolata", monospace;
+}
+.item p {
+  margin: 1px 0 10px 15px;
+}
+.food-info div p {
+  margin: 1px 0 5px 0px;
+  font-size: 13px;
+}
+.food-info div h3 {
+  margin: 1px 0 15px 0px;
+  font-size: 25px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.food-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.food-info div {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgb(233, 217, 193);
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+}
