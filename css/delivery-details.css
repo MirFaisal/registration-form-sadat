@@ -12,7 +12,7 @@ i:hover {
 }
 div {
   margin: auto;
-  width: 60%;
+  width: 100%;
 }
 
 .home-nav {
@@ -80,7 +80,7 @@ button {
 .next {
   width: 100%;
   margin-bottom: 50px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 button:hover {
   opacity: 0.9;
@@ -103,7 +103,7 @@ button:hover {
 }
 .delivery-details,
 .personal-details {
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 .delivery-details h1 i {
