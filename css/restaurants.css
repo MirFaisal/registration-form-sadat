@@ -17,7 +17,17 @@ select {
   margin-top: 10px;
   margin-left: 20px;
 }
-
+button {
+  background: #3c5cbe;
+  border-style: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+}
 .amount {
   color: blue;
 }
