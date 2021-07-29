@@ -1,23 +1,23 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: url("/images/end.jpg");
-    text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/images/end.jpg");
+  text-align: center;
 }
-div{
-    margin: auto;
-    width: 40%;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
+div {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
 button {
-    background: #3c5cbe;
-    border-style: none;
-    border-radius: 2px;
-    height: 40px;
-    width: auto;
-    color: white;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-family: "Inconsolata", monospace;
-  }
+  background: #3c5cbe;
+  border-style: none;
+  border-radius: 2px;
+  height: 40px;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+}
