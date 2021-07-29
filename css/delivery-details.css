@@ -82,19 +82,18 @@ button {
   margin-bottom: 50px;
   margin-top: 50px;
 }
-.confirm{
+.confirm {
   margin-left: 0;
 }
 button:hover {
   opacity: 0.9;
   cursor: pointer;
 }
-fieldset div{
+fieldset div {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
-
 }
 
 .delivery-time {
@@ -130,7 +129,7 @@ fieldset div{
   border: solid #3c5cbe 1px;
 }
 .address-list {
-  margin-top: 100px;
+  margin-top: 140px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 15px;
