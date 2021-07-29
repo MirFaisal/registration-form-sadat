@@ -82,7 +82,37 @@ button {
   font-size: 80px;
   font-family: "Inconsolata", monospace;
   color: rgba(255, 255, 255, 0.644);
-  text-shadow: 1px 1px 70px #3c5cbe;
+  text-shadow: 0px 0px 10px #3356bd;
+}
+.poster-ac h2 {
+  margin-top: 40px;
+  max-lines: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 80px;
+  font-family: "Inconsolata", monospace;
+  color: rgba(255, 255, 255, 0.644);
+  text-shadow: 0px 0px 10px #1f0d0dcb;
+}
+.poster-bbr h2 {
+  margin-top: 40px;
+  max-lines: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+  color: rgba(255, 255, 255, 0.644);
+  text-shadow: 0px 0px 10px #135052cb;
+}
+.poster-nhr h2 {
+  margin-top: 40px;
+  max-lines: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 35px;
+  font-family: "Inconsolata", monospace;
+  color: rgba(255, 255, 255, 0.644);
+  text-shadow: 0px 0px 10px #39bde6cb;
 }
 .poster {
   margin-top: 5px;
