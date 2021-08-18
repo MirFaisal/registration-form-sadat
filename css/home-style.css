@@ -1,179 +1,179 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 p {
-    margin: 0;
-    padding: 0;
-    font-size: 32px;
-    color:#3c5cbe;
-  }
-i{
-    margin-top: 5px;
-    color: #3c5cbe;
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  color: #3c5cbe;
 }
-i:hover{
-    
-    color: #334d9b;
+i {
+  color: #ffffff;
 }
-fieldset{
-    background: rgba(255, 255, 255, 0.637);
-    border-radius: 5px;
-    border-style: none;
-    width: 700px;
-    margin: auto;
-    height: 48px;
-    box-shadow: #3c5dbeb9 0px 0px 20px;
 }
-fieldset p{
-    text-align: center;
-    font-family: 'Inconsolata', monospace ;
-    margin: 0;
+fieldset {
+  background: rgba(255, 255, 255, 0.637);
+  border-radius: 5px;
+  border-style: none;
+  width: 700px;
+  margin: auto;
+  height: 48px;
+  box-shadow: #3c5dbeb9 0px 0px 20px;
 }
-legend{
-    font-family: 'Inconsolata', monospace;
-    font-weight: 800;
+fieldset p {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
 }
-input[type="search"]{
-    border-style: none;
-    background-color: rgba(245, 222, 179, 0.87);
-    width: 50%;
-    height: 50px;
-    border: solid 1px #cbc9c9;
+legend {
+  font-family: "Inconsolata", monospace;
+  font-weight: 800;
 }
-button{
-    background:#3c5cbe;
-    border-style: none;
-    border-radius: 2px;
-    height: 50px;
-    width: 120px;
-    margin-left: 25px;
-    color: white;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-family: 'Inconsolata', monospace;
+input[type="search"] {
+  border-style: none;
+  background-color: rgba(245, 222, 179, 0.87);
+  width: 50%;
+  height: 50px;
+  border: solid 1px #cbc9c9;
 }
-button:hover{
-    opacity: 0.9;
-    cursor: pointer;
+button {
+  background: #3c5cbe;
+  border-style: none;
+  border-radius: 2px;
+  height: 50px;
+  width: 120px;
+  margin-left: 25px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
 }
-.home-nav{
-    margin: 0;
-    padding-right: 40px;
-    box-shadow: #3c5dbeb9 0px 0px 20px;
-    
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
-.home-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-}
-.home-nav ul li{
-    padding: 0;
-    margin: 0;
-}
-.poster h2{
-    padding-top:10px;
-    margin-bottom:200px;
-    font-size: 100px;
-    font-family: 'Inconsolata', monospace;
-}
-.poster{
-    margin-top: 100px;
-    height: 600px;
-    width: 100%;
-    background: url("../images/1st-bg.jpg");
-    background-position: center;
-    background-size: cover;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
-.address-finder p{
-    display: inline;
-    
-}
-.address-finder-restaurants{
-    margin-top: 50px;
-    text-align: center;
-}
-.address-finder-restaurants fieldset input[type="search"]{
-    border-style: none;
-    background-color: rgba(255, 250, 241, 0.87);
-    width: 80%;
-    height: 50px;
-    border: solid 1px #cbc9c9;
-
-
-}
-.address-finder-restaurants  fieldset{
-    background: rgba(255, 255, 255, 0.637);
-    border-radius: 5px;
-    border-style: none;
-    width: 900px;
-    margin: auto;
-    height: 75px;
-    box-shadow: #3c5dbeb9 0px 0px 0px;
-}
-.box{
-min-height: 350px;
-overflow: hidden;
-border-radius: 5px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.box img{
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-.box h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    margin: 5px 0 5px 5px;
-}
-.box p{
-    font-family: 'Inconsolata', monospace;
-    font-size: small;
-    margin: 5px 0 5px 5px;
-    color: rgb(145, 144, 144);
-
-}
-.box:hover{
-    box-shadow: 0 4px 8px 0 #3c5dbeb9, 0 6px 20px 0 #3c5dbeb9;
-    
-
-}
-section h1{
-    text-align: center;
-    font-family:'Inconsolata', monospace ;
-    font-size:50px;
+nav {
+  flex: 1;
+  text-align: right;
 }
 
-.Restaurants-list{
-    padding-left: 100px;
-    padding-right: 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-    margin-bottom: 35px;
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
 
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
 }
-.Restaurants-list a{
-    text-decoration: none;
-    color: black;
-}
-.amount{
-    color: blue;
-}
-.restaurants-list-footer p{
-    font-family: 'Inconsolata', monospace;
-    font-size: 15px;
-    color: rgb(121, 121, 121);
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 25px;
 
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+.poster h2 {
+  padding-top: 10px;
+  margin-bottom: 200px;
+  font-size: 100px;
+  font-family: "Inconsolata", monospace;
+}
+.poster {
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  background: url("../images/1st-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.address-finder p {
+  display: inline;
+}
+.address-finder-restaurants {
+  margin-top: 50px;
+  text-align: center;
+}
+.address-finder-restaurants fieldset input[type="search"] {
+  border-style: none;
+  background-color: rgba(255, 250, 241, 0.87);
+  width: 80%;
+  height: 50px;
+  border: solid 1px #cbc9c9;
+}
+.address-finder-restaurants fieldset {
+  background: rgba(255, 255, 255, 0.637);
+  border-radius: 5px;
+  border-style: none;
+  width: 900px;
+  margin: auto;
+  height: 75px;
+  box-shadow: #3c5dbeb9 0px 0px 0px;
+}
+.box {
+  min-height: 350px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.box h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin: 5px 0 5px 5px;
+}
+.box p {
+  font-family: "Inconsolata", monospace;
+  font-size: small;
+  margin: 5px 0 5px 5px;
+  color: rgb(145, 144, 144);
+}
+.box:hover {
+  box-shadow: 0 4px 8px 0 #3c5dbeb9, 0 6px 20px 0 #3c5dbeb9;
+}
+section h1 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 50px;
+}
+
+.Restaurants-list {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 35px;
+}
+.Restaurants-list a {
+  text-decoration: none;
+  color: black;
+}
+.amount {
+  color: blue;
+}
+.restaurants-list-footer p {
+  font-family: "Inconsolata", monospace;
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
 }
