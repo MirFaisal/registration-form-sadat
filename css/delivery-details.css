@@ -10,41 +10,36 @@ i {
 i:hover {
   color: #334d9b;
 }
-div {
-  margin: auto;
-  width: 100%;
-}
-
-.navbar{
+.navbar {
   display: flex;
   align-items: center;
   padding: 20px;
- }
- 
- nav{
+}
+
+nav {
   flex: 1;
   text-align: right;
- }
- 
- nav ul{
+}
+
+nav ul {
   display: inline-block;
   list-style-type: none;
- }
- 
- nav ul li{
+}
+
+nav ul li {
   display: inline-block;
   margin-right: 20px;
   list-style-type: none;
- }
- 
- a{
+}
+
+a {
   text-decoration: none;
   color: #555;
- }
- 
- p{
+}
+
+p {
   color: #555;
- }
+}
 table {
   border-collapse: collapse;
   width: 100%;
