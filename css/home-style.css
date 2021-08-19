@@ -53,6 +53,9 @@ button:hover {
   opacity: 0.9;
   cursor: pointer;
 }
+.checked {
+  color: orange;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -122,7 +125,7 @@ p {
   box-shadow: #3c5dbeb9 0px 0px 0px;
 }
 .box {
-  min-height: 350px;
+  min-height: 400px;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
